@@ -1,3 +1,5 @@
+
+# TUM_SW5
 1:Searching with the Strategy Pattern
 The Strategy Pattern is a behavioral design pattern that allows choosing different strategies based on a policy during runtime.
 
@@ -79,4 +81,3 @@ Finally, we want to remove the deadlock (without simply removing what we added i
 
 If you implemented this part correctly, you should be able to run your main function from part 2 and see that executing it actually terminates now. You might have to replace the handleEntryRequest() call with a handleEntryRequestDeadlockFree call in goToSwimmingPool in Swimmer to use our updated deadlock free implementation, depending on your implementation of part 2.
 
-# TUM_SW5
